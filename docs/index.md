@@ -27,7 +27,7 @@ Figure 1
 ![Figure 2](Fig2.PNG "Figure 2")  
 Figure 2
 
-![Figure 3](Fig3.PNG "Figure 3")  
+![Figure 3](Fig3.png "Figure 3")  
 Figure 3
 
 ![Figure 4](Fig4.PNG "Figure 4")  
