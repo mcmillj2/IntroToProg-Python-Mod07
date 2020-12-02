@@ -21,4 +21,29 @@ The error handling example I chose to do is in figure 2, 4 and 5. The main idea 
 ## Pickling Example
 The pickling example I used in figure 3. 6 and 7. The main idea was to save the two integers into a binary file using the “dump” function, which saves a single row (fine in this context). Alternatively would be to use “dumps” to save the entire variable. When saving you also would use “wb” for writing to a binary file instead of just “w” like for a text file. Next I also opened the file and saved the data in the file as a string to present to the user. This is to show how the binary data actually looks like in figure 8. The data is barely readable and not secure. The main purpose of pickling is to flatten data to save (less space) store classes/etc. for later use and/or send to other locations (databases, etc.). The method is not secure and should not be used as an open ended data sending method as it could be used to inject code.
 
-![Figure 1](docs/Fig1.PNG "Figure 1")
+![Figure 1](Fig1.PNG "Figure 1")  
+Figure 1
+
+![Figure 2](Fig2.PNG "Figure 2")  
+Figure 2
+
+![Figure 3](Fig3.PNG "Figure 3")  
+Figure 3
+
+![Figure 4](Fig4.PNG "Figure 4")  
+Figure 4
+
+![Figure 5](Fig5.PNG "Figure 5")  
+Figure 5
+
+![Figure 6](Fig6.PNG "Figure 6")  
+Figure 6
+
+![Figure 7](Fig7.PNG "Figure 7")  
+Figure 7
+
+![Figure 8](Fig8.PNG "Figure 8")  
+Figure 8
+
+## Summary  
+To fulfil the requirements of assignment 7 I created a simple user menu program which can be used to demonstrate both error handling and pickling. This is accomplished by walking the user through the error handling and doing a side by side comparison for the pickling process (compared to text files).
