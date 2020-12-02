@@ -20,3 +20,5 @@ The error handling example I chose to do is in figure 2, 4 and 5. The main idea 
 
 ## Pickling Example
 The pickling example I used in figure 3. 6 and 7. The main idea was to save the two integers into a binary file using the “dump” function, which saves a single row (fine in this context). Alternatively would be to use “dumps” to save the entire variable. When saving you also would use “wb” for writing to a binary file instead of just “w” like for a text file. Next I also opened the file and saved the data in the file as a string to present to the user. This is to show how the binary data actually looks like in figure 8. The data is barely readable and not secure. The main purpose of pickling is to flatten data to save (less space) store classes/etc. for later use and/or send to other locations (databases, etc.). The method is not secure and should not be used as an open ended data sending method as it could be used to inject code.
+
+![Figure 1](docs/Fig1.PNG "Figure 1")
